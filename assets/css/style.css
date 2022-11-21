@@ -1,13 +1,19 @@
 body {
-    background-color: brown;
+    background-color: white;
 }
 
 h1 {
     font-size: 48px;
 }
 
+nav a {
+    Color: yellow;
+    font-size: 30px;
+}
 h2 {
     font-size: 40px;
+    color: yellow;
+
 }
 
 .container {
@@ -23,7 +29,16 @@ h2 {
     background-color: blue;
     justify-content: space-between;
 }
+.about-detail {
+    display: flex;
+    align-items: flex-start;
+}
 
+.about-detail img {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 200px;
+}
 #work {
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +60,19 @@ padding: 20px;
 footer {
     padding: 20px;
     background-color: blue;
-    justify-content: flex-end;
+
+}
+
+.contact {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.contact a  {
+padding: 20px;
+display: flex;
+color: yellow;
+background-color: blue;
+justify-content: space-between;
 
 }
