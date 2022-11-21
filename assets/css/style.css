@@ -1,0 +1,50 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+ max-width: 1140px;
+ margin: 0 auto;
+
+}
+
+.container > header {
+    padding: 20px;
+    display: flex;
+    color: yellow;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 50%;
+}
+
+.featured {
+    width: 100%;
+}
+
+article {
+width: 50%;
+padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: blue;
+    justify-content: flex-end;
+
+}
